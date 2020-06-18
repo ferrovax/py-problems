@@ -1,6 +1,7 @@
 # 1.8 Zero Matrix
 def zero(matrix):
-	# could be more space efficient by using the first row and column of the matrix itself for tracking 0s
+	# zero rows and columns that contain any 0s
+	
 	rows_with_zeroes = [0] * len(matrix)
 	columns_with_zeroes = [0] * len(matrix[0])
 

@@ -1,6 +1,8 @@
 # 1.2 Check Permutation
 def checkPermutation(str1, str2):
-	# Could sort them then return whether equal, or do the following (which is faster):
+	# Could sort them then return whether equal
+	# or do the following (which is faster):
+	
 	counts = [0]*128
 
 	for c in str1:

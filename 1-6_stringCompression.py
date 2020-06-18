@@ -1,7 +1,7 @@
 # 1.6 String Compression
 def stringCompression(s):
-	# aabcccccaaa -> a2b1c5a3, returns original if 'compression' is shorter
-	# in Java using a string builder would be a good idea, but here ''.join(sequenceOfStrings) is likely fast enough
+	# aabcccccaaa -> a2b1c5a3, returns original if compression is shorter
+	# in Java, using a string builder would be a good idea, but here ''.join(sequenceOfStrings) is likely fast enough
 	countConsecutive = 0
 	compressedString = []
 

@@ -15,3 +15,24 @@ class LinkedListNode(object):
 ```
 
 ### Trees and Graphs
+
+#### Trees
+A simple way to build trees:
+```python
+class TreeNode:
+	def __init__(self, data, left=None, right=None):
+		self.data, self.left, self.right = data, left, right
+
+	def __repr__(self):
+		return str(self.data)
+
+tree = Node( 20, Node( 10, Node( 5, Node(3), Node(7) ), Node( 15, None, Node(17) ) ), Node( 30 ) )
+```
+
+##### Heaps
+For heaps I recommend importing `heapq`, which is a min heap. Negative values can be used to achieve what is effectively a max heap. Some methods: `heapify(iterable)`, `heappush(heapified_list, element)`, `heappop(heapified_list)`.
+
+#### Graphs
+
+```python
+```

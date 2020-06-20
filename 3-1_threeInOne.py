@@ -40,7 +40,7 @@ class FixedMultiStack:
 
 	def indexOfTop(self, stackNum):
 		# returns index of the top of the given stack
-        
+
 		offset = stackNum * self.stackCapacity
 		size = self.sizes[stackNum]
 

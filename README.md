@@ -26,7 +26,7 @@ class TreeNode:
 	def __repr__(self):
 		return str(self.data)
 
-tree = Node( 20, Node( 10, Node( 5, Node(3), Node(7) ), Node( 15, None, Node(17) ) ), Node( 30 ) )
+tree = TreeNode( 20, TreeNode( 10, TreeNode( 5, TreeNode(3), TreeNode(7) ), TreeNode( 15, None, TreeNode(17) ) ), TreeNode( 30 ) )
 ```
 
 ##### Heaps

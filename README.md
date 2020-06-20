@@ -30,7 +30,7 @@ tree = Node( 20, Node( 10, Node( 5, Node(3), Node(7) ), Node( 15, None, Node(17)
 ```
 
 ##### Heaps
-For heaps I recommend importing `heapq`, which is a min heap. Negative values can be used to achieve what is effectively a max heap. Some methods: `heapify(iterable)`, `heappush(heapified_list, element)`, `heappop(heapified_list)`.
+For heaps I recommend importing `heapq`, which is a min heap. Negative values can be used to achieve what is effectively a max heap.
 
 #### Graphs
 

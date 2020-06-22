@@ -33,6 +33,19 @@ tree = TreeNode( 20, TreeNode( 10, TreeNode( 5, TreeNode(3), TreeNode(7) ), Tree
 For heaps I recommend importing `heapq`, which is a min heap. Negative values can be used to achieve what is effectively a max heap.
 
 #### Graphs
+As an alternative to an adjacency list I recommend a graph wrapper class for your nodes:
+```python
+class Graph:
+	def __init__(self):
+		self.nodes = []
+		
+class Node:
+	def __init__(self, data):
+		self.data = data
+		self.visited = False
+		self.adjacent = []
+```
+
 
 ```python
 ```

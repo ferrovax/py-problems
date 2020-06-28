@@ -38,7 +38,7 @@ As an alternative to an adjacency list I recommend a graph wrapper class for you
 class Graph:
 	def __init__(self):
 		self.nodes = []
-		
+
 class Node:
 	def __init__(self, data):
 		self.data = data
@@ -46,6 +46,9 @@ class Node:
 		self.adjacent = []
 ```
 
-
+### Bit Manipulation
+Use `bin()` to convert integers into binary strings:
 ```python
+print(bin(42))
+>>>'0b101010'
 ```

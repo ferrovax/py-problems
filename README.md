@@ -1,6 +1,8 @@
-The vast majority of these problems can be found in [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/), which is a book written in Java and English.
+Problems in folders 01 through 17 can be found in [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/).
 
-My solutions are in Python and English, which, I think, is more clear.
+Problems in 00_Rosalind can be found at [Rosalind](http://rosalind.info/problems/list-view/).
+
+Problems in 00_foo_bar can be found with an invitation, and may be out of date[.](https://foobar.withgoogle.com/)
 
 ## Testing Utilities
 

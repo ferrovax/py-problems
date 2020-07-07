@@ -2,7 +2,7 @@ Problems in folders 01 through 17 can be found in [Cracking the Coding Interview
 
 Problems in 00_Rosalind can be found at [Rosalind](http://rosalind.info/problems/list-view/).
 
-Problems in 00_foo_bar can be found with an invitation, and may be out of date[.](https://foobar.withgoogle.com/)
+Problems in 00_Foo_Bar: [they](https://foobar.withgoogle.com/) find you.
 
 ## Testing Utilities
 

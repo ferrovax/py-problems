@@ -6,13 +6,12 @@
 # EXAMPLES:
 # solution([1, 2, 3, 4, 5, 6])
 #   => 3 ((1, 2, 4), (1, 2, 6), (1, 3, 6))
-#
 # solution([1, 1, 1])
 #   => 1 ((1, 1, 1))
 
 def solution(l):
     # consider lucky triple (x, y, z) and 'pivot' around y
-    
+
 	total, i = 0, len(l)-1
 
 	while i > 0:

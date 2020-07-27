@@ -1,7 +1,7 @@
 # 8.2
 # Robot starts at upper left of grid, tries to find a path to bottom right
 # Robot only moves right or down
-# False spaces in the grid are off limiits (obstacles)
+# False spaces in the grid are off limits (obstacles)
 
 def findPath(grid):
     if grid == None or len(grid) == 0:
@@ -25,7 +25,7 @@ def pathfinder(grid, row, col, path, cache):
 
     if (row == 0 and col == 0) or pathfinder(grid, row - 1, col, path, cache) or pathfinder(grid, row, col - 1, path, cache):
         path.append(pt)
-        
+
         return True
 
     cache.add(pt)
